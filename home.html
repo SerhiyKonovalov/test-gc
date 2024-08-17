@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240817141904">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="account">
+			<div class="account__body">
+				<div class="account__left left-account">
+					<div class="left-account__block">
+						<h1 class="left-account__title">Turn your ideas into reality</h1>
+						<div class="left-account__text">
+							<p>Start for free and get attractive offers from the community</p>
+						</div>
+					</div>
+					<div class="left-account__image">
+						<img src="img/image.webp" alt="Image">
+					</div>
+				</div>
+				<div class="account__right right-account">
+					<a href="#" class="right-account__brand">
+						<img src="img/logo.svg" class="right-account__logo" alt="Logo">
+						<span class="right-account__brand-name">Interactive Brand</span>
+					</a>
+					<form action="#" method="POST" class="right-account__form" data-dev>
+						<div class="right-account__header">
+							<h2 class="right-account__title">Create an account</h2>
+							<div class="right-account__text">
+								<p>Let’s get started with your 30day free trial.</p>
+							</div>
+						</div>
+						<div class="right-account__fields">
+							<input type="text" name="form[userName]" placeholder="Username" class="right-account__input input">
+							<input type="text" name="form[email]" data-error="Error email" data-required="email" data-validate placeholder="Email" class="right-account__input input">
+							<div class="right-account__password-wr">
+								<input type="password" name="form[password]" placeholder="Password" class="right-account__input input">
+								<span class="right-account__viewpass"></span>
+							</div>
+							<!-- <input-mask alias="datetime" inputFormat="mm/dd/yyyy"></input-mask>
+							<input-mask alias="currency" prefix="$ "></input-mask>
+							<input-mask alias="email"></input-mask> -->
+						</div>
+						<div class="right-account__buttons">
+							<button type="submit" class="right-account__button button button--create button--fw">Create
+								account</button>
+							<div class="right-account__or"><span>or</span></div>
+							<a href="#" type="button" class="right-account__button button button--sign-up button--fw">
+								<img src="img/google.svg" alt="Google icon"><span>Sign up with Google</span>
+							</a>
+						</div>
+					</form>
+					<div class="right-account__info">
+						<span>Already have an account?</span>
+						<a href="#" class="right-account__log-in">Log in</a>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/app.min.js?_v=20240817141904"></script>
+</body>
+
+</html>
